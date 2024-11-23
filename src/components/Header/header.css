@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -9,7 +9,7 @@ body{
     }
     .navbar-mobile{
         width:500px;
-        right:-500px;
+        right:-500px!important;
         transition: 0.5s;
         position: absolute;
     }

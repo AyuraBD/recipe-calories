@@ -11,7 +11,7 @@ const Header = () => {
     navbar == false ? setNavbar(true) : setNavbar(false); 
   }
   return (
-    <header className='max-md:relative flex justify-between items-center sm:px-8 max-sm:px-4 md:px-12 lg:px-20 h-14'>
+    <header className='max-md:relative flex justify-between items-center sm:px-8 max-sm:px-4 md:px-12 lg:px-20 h-14 mb-6'>
       {/* Logo */}
       <div id="navbar-left" className='lg:w-1/3'>
         <a className="max-md:text-[20px] lg:text-2xl font-bold">Recipe Calories</a>
