@@ -2,19 +2,16 @@ body{
     overflow-x: hidden;
 }
 
-
-@media (min-width: 640px) {
-    #navbar-right{
-        transition: 0.5s;
-    }
-    .navbar-mobile{
-        width:500px;
-        right:-500px!important;
-        transition: 0.5s;
-        position: absolute;
-    }
-    .navbar-mobile-x{
-        right: 0px;
-        transition: 0.5s;
-    }
+#navbar-right{
+    transition: 0.5s;
+}
+.navbar-mobile{
+    width:500px;
+    right:-500px!important;
+    transition: 0.5s;
+    position: absolute;
+}
+.navbar-mobile-x{
+    right: 0px;
+    transition: 0.5s;
 }

@@ -1,7 +1,7 @@
 [
     {
       "id": 1001,
-      "img": "https://source.unsplash.com/600x400/?pasta",
+      "img": "https://i.ibb.co.com/dtd86wy/spaghetti-carbonara.webp",
       "name": "Spaghetti Carbonara",
       "description": "A classic Italian pasta dish with creamy egg sauce and crispy pancetta.",
       "ingredients": [
@@ -14,7 +14,7 @@
     },
     {
       "id": 1002,
-      "img": "https://source.unsplash.com/600x400/?salad",
+      "img": "https://i.ibb.co.com/NSZsm4w/caesar-salad.webp",
       "name": "Caesar Salad",
       "description": "Crisp romaine lettuce tossed with creamy Caesar dressing and crunchy croutons.",
       "ingredients": [
@@ -27,7 +27,7 @@
     },
     {
       "id": 1003,
-      "img": "https://source.unsplash.com/600x400/?burger",
+      "img": "https://i.ibb.co.com/9nZg8NC/classic-cheeseburger.webp",
       "name": "Classic Cheeseburger",
       "description": "Juicy beef patty topped with melted cheese, lettuce, and tomato in a soft bun.",
       "ingredients": [
@@ -40,7 +40,7 @@
     },
     {
       "id": 1004,
-      "img": "https://source.unsplash.com/600x400/?pizza",
+      "img": "https://i.ibb.co.com/HgqTGRD/margherita-pizza.jpg",
       "name": "Margherita Pizza",
       "description": "Simple and delicious pizza topped with fresh mozzarella, basil, and tomato sauce.",
       "ingredients": [
@@ -53,7 +53,7 @@
     },
     {
       "id": 1005,
-      "img": "https://source.unsplash.com/600x400/?soup",
+      "img": "https://i.ibb.co.com/PThzJRs/tomato-basil-soup.jpg",
       "name": "Tomato Basil Soup",
       "description": "Rich and creamy tomato soup with a hint of fresh basil.",
       "ingredients": [
@@ -66,7 +66,7 @@
     },
     {
       "id": 1006,
-      "img": "https://source.unsplash.com/600x400/?pancakes",
+      "img": "https://i.ibb.co.com/YphbPHy/fluffy-pancakes.jpg",
       "name": "Fluffy Pancakes",
       "description": "Light and airy pancakes perfect for breakfast, served with syrup and butter.",
       "ingredients": [
