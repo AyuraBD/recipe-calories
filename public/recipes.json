@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1001,
+      "img": "https://source.unsplash.com/600x400/?pasta",
+      "name": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish with creamy egg sauce and crispy pancetta.",
+      "ingredients": [
+        "200 g spaghetti",
+        "3 large eggs",
+        "100 g pancetta"
+      ],
+      "preparing_time": 25,
+      "calories": 400
+    },
+    {
+      "id": 1002,
+      "img": "https://source.unsplash.com/600x400/?salad",
+      "name": "Caesar Salad",
+      "description": "Crisp romaine lettuce tossed with creamy Caesar dressing and crunchy croutons.",
+      "ingredients": [
+        "200 g romaine lettuce",
+        "100 ml Caesar dressing",
+        "50 g croutons"
+      ],
+      "preparing_time": 15,
+      "calories": 200
+    },
+    {
+      "id": 1003,
+      "img": "https://source.unsplash.com/600x400/?burger",
+      "name": "Classic Cheeseburger",
+      "description": "Juicy beef patty topped with melted cheese, lettuce, and tomato in a soft bun.",
+      "ingredients": [
+        "150 g beef patty",
+        "50 g cheddar cheese",
+        "1 hamburger bun"
+      ],
+      "preparing_time": 30,
+      "calories": 650
+    },
+    {
+      "id": 1004,
+      "img": "https://source.unsplash.com/600x400/?pizza",
+      "name": "Margherita Pizza",
+      "description": "Simple and delicious pizza topped with fresh mozzarella, basil, and tomato sauce.",
+      "ingredients": [
+        "250 g pizza dough",
+        "200 g mozzarella",
+        "150 g tomato sauce"
+      ],
+      "preparing_time": 20,
+      "calories": 300
+    },
+    {
+      "id": 1005,
+      "img": "https://source.unsplash.com/600x400/?soup",
+      "name": "Tomato Basil Soup",
+      "description": "Rich and creamy tomato soup with a hint of fresh basil.",
+      "ingredients": [
+        "500 g tomatoes",
+        "30 g fresh basil",
+        "100 ml heavy cream"
+      ],
+      "preparing_time": 40,
+      "calories": 150
+    },
+    {
+      "id": 1006,
+      "img": "https://source.unsplash.com/600x400/?pancakes",
+      "name": "Fluffy Pancakes",
+      "description": "Light and airy pancakes perfect for breakfast, served with syrup and butter.",
+      "ingredients": [
+        "150 g flour",
+        "2 large eggs",
+        "250 ml milk"
+      ],
+      "preparing_time": 20,
+      "calories": 350
+    }
+  ]
+  
