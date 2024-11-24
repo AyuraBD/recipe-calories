@@ -2,9 +2,8 @@ import React from 'react'
 import { AiOutlineFire } from 'react-icons/ai';
 import { CiClock2 } from 'react-icons/ci';
 
-const Recipe = ({recipe}) => {
+const Recipe = ({recipe, handleWantToCook}) => {
     const {id, name, img, calories, description, preparing_time, ingredients} = recipe;
-    console.log(recipe)
   return (
     <div className='border-2 p-3 rounded-md'>
         <img className='rounded-md mb-2' src={img} alt="" />
@@ -14,7 +13,7 @@ const Recipe = ({recipe}) => {
         <h4 className='font-semibold text-[17px]'>Ingredients: {ingredients.length}</h4>
         <div className='pb-3 mb-3 border-b-2'>
         {
-            ingredients.map(ingredient => <li>{ingredient}</li>)
+            ingredients.map((ingredient, idx) => <li key={idx}>{ingredient}</li>)
         }
         </div>
         <div className='flex justify-between items-center mb-3'>
@@ -27,7 +26,7 @@ const Recipe = ({recipe}) => {
                 <p><span>{calories}</span> Kcal</p>
             </div>
         </div>
-        <button className='bg-[#0BE58A] px-3 py-2 rounded-full font-semibold border-[#0BE58A] border-2 text-[13px]'>Want to Cook</button>
+        <button onClick={()=>handleWantToCook(recipe)} className='bg-[#0BE58A] px-3 py-2 rounded-full font-semibold border-[#0BE58A] border-2 text-[13px]'>Want to Cook</button>
     </div>
   )
 }
