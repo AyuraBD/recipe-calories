@@ -1,7 +1,8 @@
 import React from "react";
 import SideRecipe from "./SideRecipe";
+import CurrentCooking from "../CurrentCooking/CurrentCooking";
 
-const Sidebar = ({ wantToCook }) => {
+const Sidebar = ({ wantToCook,handleCooking, cooking, totalCookingTime, totalCalories }) => {
   
   
   return (
@@ -21,16 +22,16 @@ const Sidebar = ({ wantToCook }) => {
           </thead>
           <tbody>
             {
-              wantToCook.map(toCook => <SideRecipe key={toCook.id} toCook={toCook}></SideRecipe>)
+              wantToCook.map(toCook => <SideRecipe key={toCook.id} toCook={toCook} handleCooking={handleCooking}></SideRecipe>)
             }
           </tbody>
         </table>
 
         {/* Currently Cooking */}
         <h3 className="py-3 border-b-2 text-[20px] font-semibold text-center mb-2">
-          Currently Cooking: 0{wantToCook.length}
+          Currently Cooking: 0{cooking.length}
         </h3>
-        <table className="table-fixed mb-8">
+        <table className="table-fixed mb-8 w-full">
           <thead>
             <tr>
               <th className="p-3 text-start">Name</th>
@@ -39,9 +40,16 @@ const Sidebar = ({ wantToCook }) => {
             </tr>
           </thead>
           <tbody>
-            
+            {
+              cooking.map(cooking => <CurrentCooking key={cooking.id} cooking={cooking}></CurrentCooking>)
+            }
           </tbody>
         </table>
+        {/* Total calories and timing */}
+        <div className="text-right">
+          <p>Total Time = {totalCookingTime} Minutes</p>
+          <p>Total Calories = {totalCalories} Kcal</p>
+        </div>
       </div>
     </div>
   );

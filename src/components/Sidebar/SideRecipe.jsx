@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SideRecipe = ({toCook}) => {
+const SideRecipe = ({toCook,handleCooking}) => {
     const {name, preparing_time, calories} = toCook;
   return (
     <tr className="bg-slate-100 border-b-2">
@@ -11,7 +11,7 @@ const SideRecipe = ({toCook}) => {
         <td className="p-1 text-[14px]">{calories}
             <span>Kcal</span>
         </td>
-        <td><button className='bg-[#0BE58A] px-2 py-1 rounded-full text-[14px]'>Preparing</button></td>
+        <td><button onClick={()=>handleCooking(toCook)} className='bg-[#0BE58A] px-2 py-1 rounded-full text-[14px]'>Preparing</button></td>
     </tr>
   )
 }
