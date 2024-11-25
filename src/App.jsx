@@ -39,7 +39,8 @@ function App() {
       const addToCook = [...cooking, toCook]
       setCooking(addToCook);
     }else{
-      document.getElementById('my_modal_2').showModal();
+      // document.getElementById('my_modal_2').showModal();
+      toast.error(`${toCook.name} is already added!`);
     } 
 
     setTotalCookingTime(totalCookingTime + toCook.preparing_time);
@@ -51,12 +52,12 @@ function App() {
     <>
       <Header></Header>
       <Banner></Banner>
-      <main className='px-20'>
-        <div className='w-3/4 text-center m-auto mb-10'>
+      <main className='lg:px-20 md:px-12 sm:px-8 max-sm:px-4'>
+        <div className='w-3/4 text-center m-auto lg:mb-10 max-sm:mb-4'>
           <h1 className='text-2xl font-bold mb-3'>Our Recipes</h1>
           <p className='text-gray-500 text-[15px]'>Discover a wide selection of mouthwatering recipes, complete with detailed instructions, ingredients, and calorie information to inspire your next meal!</p>
         </div>
-        <div className='flex lg:flex-row md:flex-row sm:flex-col gap-4'>
+        <div className='flex lg:flex-row md:flex-row sm:flex-col max-sm:flex-col lg:gap-4'>
           <Recipes handleWantToCook={handleWantToCook}></Recipes>
           <Sidebar wantToCook={wantToCook} handleCooking={handleCooking} cooking={cooking} totalCookingTime={totalCookingTime} totalCalories={totalCalories}></Sidebar>
 

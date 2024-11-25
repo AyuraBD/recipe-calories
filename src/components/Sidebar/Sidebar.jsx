@@ -6,7 +6,7 @@ const Sidebar = ({ wantToCook,handleCooking, cooking, totalCookingTime, totalCal
   
   
   return (
-    <div className="border-2 rounded-md p-3 h-full lg:w-1/3 sm:w-3/3 ">
+    <div className="border-2 rounded-md p-3 h-full lg:w-1/3 md:w-1/2 sm:w-3/3 ">
       <div>
         {/* Added for Cooking */}
         <h3 className="py-3 border-b-2 text-[20px] font-semibold text-center mb-2">
